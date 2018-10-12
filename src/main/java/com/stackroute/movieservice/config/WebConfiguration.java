@@ -1,0 +1,24 @@
+//package com.stackroute.movieservice.config;
+//
+//import org.apache.catalina.servlets.WebdavServlet;
+//import org.h2.server.web.WebServlet;
+//import org.springframework.boot.web.servlet.RegistrationBean;
+//import org.springframework.boot.web.servlet.ServletRegistrationBean;
+//import org.springframework.context.annotation.Bean;
+//import org.springframework.context.annotation.Configuration;
+//
+//import javax.servlet.ServletContext;
+//import javax.servlet.ServletRegistration;
+//import java.util.Collection;
+//import java.util.Map;
+//import java.util.Set;
+//
+//@Configuration
+//public class WebConfiguration {
+//    @Bean
+//    ServletRegistrationBean h2ServletResistration() {
+//        ServletRegistrationBean registrationBean = new ServletRegistrationBean(new WebServlet());
+//        registrationBean.addUrlMappings("/console/*");
+//        return registrationBean;
+//    }
+//}
